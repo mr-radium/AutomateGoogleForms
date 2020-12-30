@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-browser = webdriver.Chrome(executable_path='/home/mr-radium/Python/Web Scraping/chromedriver')
+browser = webdriver.Chrome(executable_path='/home/username/Python/Web Scraping/chromedriver')
 browser.get('https://forms.gle/wh9JrrnBYEUJgPPF9')
 
 short_answer = '/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input'
