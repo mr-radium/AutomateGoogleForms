@@ -22,3 +22,6 @@ time.sleep(0.5)
 browser.find_element_by_xpath(dropdown_option).click()
 time.sleep(1)
 browser.find_element_by_xpath(submit).click()
+# time.sleep(2)
+# browser.quit
+
