@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-browser = webdriver.Chrome(executable_path='/home/username/Python/Web Scraping/chromedriver')
+browser = webdriver.Chrome(executable_path='/home/mr-radium/Python/Web Scraping/chromedriver')
 browser.get('https://forms.gle/wh9JrrnBYEUJgPPF9')
 
 short_answer = '/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input'
@@ -12,7 +12,7 @@ dropdown = '/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/d
 dropdown_option = '/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[2]/div[5]/span'
 submit = '/html/body/div/div[2]/form/div[2]/div/div[3]/div[1]/div/div/span/span'
 
-
+time.sleep(2)
 browser.find_element_by_xpath(short_answer).send_keys('Did it work?')
 browser.find_element_by_xpath(long_answer).send_keys('Yes, it did')
 browser.find_element_by_xpath(multiple_choice).click()
@@ -23,5 +23,4 @@ browser.find_element_by_xpath(dropdown_option).click()
 time.sleep(1)
 browser.find_element_by_xpath(submit).click()
 # time.sleep(2)
-# browser.quit
-
+# browser.quit()
