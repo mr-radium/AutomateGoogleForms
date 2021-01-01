@@ -5,5 +5,5 @@ To learn more about this repository visit my Medium Article "https://mr-radium.m
 
 The output of this code should look something like this
 
-    <img src="https://github.com/MrRadium/AutomateGoogleForms/blob/main/Medium4.gif" alt="Code Output">
+    <img src="https://raw.githubusercontent.com/MrRadium/AutomateGoogleForms/main/Medium4.gif" alt="Code Output">
 
