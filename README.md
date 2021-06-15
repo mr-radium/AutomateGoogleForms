@@ -1,9 +1,9 @@
 # AutomateGoogleForms
-A Python script that automatically fills google forms using Selenium 
+A Python script that automatically fills google forms using Selenium. The code fills a demo form used to showcase this script.
 
-To learn more about this repository visit my <a href ="https://mr-radium.medium.com/automatic-google-forms-with-python-selenium-101-60585a8397d4">Medium Article</a>
+To learn more about this repository visit my <a href ="https://mr-radium.medium.com/automatic-google-forms-with-python-selenium-101-60585a8397d4">Medium Article.</a>
 
-The output of this code should look something like this
+The output of this code should look something like this:
 
 ![Code Output](https://github.com/MrRadium/AutomateGoogleForms/blob/main/Code%20Output.gif?raw=true)
 
